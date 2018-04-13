@@ -13,7 +13,7 @@ import time
 from . disjoint_set import DisjointSet
 
 # parameters
-BLUR_VALUE = 9
+BLUR_VALUE = 7
 NEIGHBORHOOD_SIZE = 50
 LOWER_CUT_PERCENTAGE = 0.3 # Doesn't consider the 30% lowest parts of the contour as fingertips (results in less false positives)
 DILATION_SIZE = 5

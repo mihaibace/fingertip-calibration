@@ -62,7 +62,7 @@ class Finger_Calibration(Calibration_Plugin):
     def init_ui(self):
         super().init_ui()
         self.menu.label = "Finger Calibration"
-        self.menu.append(ui.Info_Text("Use the tip of your finger to calibrate the eye tracker."))
+        self.menu.append(ui.Info_Text("Use your fingertip to calibrate the eye tracker by moving your finger into your field of view while looking at the fingertip."))
         self.menu.append(ui.Slider('counter_max',self,step=1, min=1, max=50, label='Number of samples'))
         self.menu.append(ui.Switch('static_finger',self,label='Use static fingers'))
         self.menu.append(ui.Slider('correct_finger_scale',self,step=1, min=0, max=60, label='Finger correction scale'))
@@ -126,7 +126,7 @@ class Finger_Calibration(Calibration_Plugin):
         super().stop()
 
     def show_click_infotext(self):
-        logger.debug("Click in the frame to extract the color from that pixel")
+        logger.debug("Click on the scene camera preview window to extract the corresponding pixel color.")
         self.can_click_for_color = True
 
     def set_to_handskin_color(self):
