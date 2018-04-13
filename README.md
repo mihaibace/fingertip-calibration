@@ -45,7 +45,7 @@ from . gaze_mappers import Gaze_Mapping_Plugin, Dummy_Gaze_Mapper, Monocular_Gaz
 from . calibration_plugin_base import Calibration_Plugin
 
 calibration_plugins = [Finger_Calibration,
-					   Screen_Marker_Calibration,
+                       Screen_Marker_Calibration,
                        Manual_Marker_Calibration,
                        Fingertip_Calibration,
                        Single_Marker_Calibration,
