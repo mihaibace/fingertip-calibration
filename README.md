@@ -58,7 +58,7 @@ gaze_mapping_plugins = [Dummy_Gaze_Mapper,
                         Vector_Gaze_Mapper,
                         Binocular_Gaze_Mapper,
                         Binocular_Vector_Gaze_Mapper,
-Dual_Monocular_Gaze_Mapper]
+                        Dual_Monocular_Gaze_Mapper]
 ```
 
 
