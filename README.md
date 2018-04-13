@@ -73,7 +73,7 @@ This plugin has successfully been tested on Pupil Capture 1.6.24
 
 To calibrate the eye tracker, press "C" to start the calibration. Afterwards, hold the hand and fingertip in the scene camera's field of view and fixate the tip of your finger. Once the system detects the fingertip, it will automatically output an audio feedback to let the user know that multiple sample points are being collected from that specific location. A second sound will inform the user that the sampling process has finished. You can then move the fingertip to the next location and start sampling the next set of calibration samples. If you have collected enough fixation locations, simply press again "C" to stop the calibration process.
 
-## Settings
+# Settings
 
 There are various settings which can be fine-tuned to optimize the performance of the calibration method:
 
